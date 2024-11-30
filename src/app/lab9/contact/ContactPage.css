@@ -1,0 +1,103 @@
+/* src/app/lab9/contact/ContactPage.css */
+
+/* Kontener strony kontaktowej */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Link powrotu na stronę Lab 9 */
+  .back-to-lab9 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-to-lab9:hover {
+    background-color: #1c6f94;
+    transform: scale(1.05);
+  }
+  
+  .back-to-lab9:active {
+    transform: scale(0.98);
+  }
+  
+  /* Kontener formularza */
+  .contact-form-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  /* Nagłówek formularza */
+  .contact-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2980b9;
+    margin-bottom: 30px;
+  }
+  
+  /* Stylowanie etykiety formularza */
+  .form-label {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Stylowanie pola tekstowego formularza */
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-input:focus {
+    border-color: #2980b9;
+    outline: none;
+  }
+  
+  /* Stylowanie przycisku formularza */
+  .submit-btn {
+    padding: 12px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1c6f94;
+  }
+  
+  .submit-btn:active {
+    transform: scale(0.98);
+  }
+  

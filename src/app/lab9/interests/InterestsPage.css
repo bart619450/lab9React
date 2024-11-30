@@ -1,0 +1,59 @@
+/* src/app/lab9/interests/InterestsPage.css */
+
+/* Kontener główny strony Interests */
+.interests-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Link powrotu na stronę Lab 9 */
+  .back-to-lab9 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-to-lab9:hover {
+    background-color: #1c6f94;
+    transform: scale(1.05);
+  }
+  
+  .back-to-lab9:active {
+    transform: scale(0.98);
+  }
+  
+  /* Nagłówek strony Interests */
+  .interests-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2980b9;
+    margin-bottom: 20px;
+  }
+  
+  /* Opis zainteresowań */
+  .interests-description {
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 800px;
+    line-height: 1.6;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,101 @@
+/* src/pages/Page.css */
+
+/* Tło strony */
+.page-container {
+    background: linear-gradient(135deg, #f0f8ff, #e6f7ff); 
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .subheader {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  
+  button {
+    background-color: #4CAF50; 
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049; 
+  }
+  
+ 
+  .interaction-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px; 
+    text-align: center;
+  }
+  
+  
+  .small-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  
+
+  input[type="file"] {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+  }
+  
+  input[type="file"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  .back-home-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .back-home-link:hover {
+    background-color: #1c6f94;
+    transform: scale(1.05);
+  }
+  
+  .back-home-link:active {
+    transform: scale(0.98);
+  }
